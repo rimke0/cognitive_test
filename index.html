@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cognitive Assessment (Research)</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- jsPsych default stylesheet for accurate layout timing -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jspsych@7.3.4/css/jspsych.css" />
+</head>
+<body>
+  <div id="dev-skip-bar" class="dev-skip-bar" hidden>
+    <button type="button" class="dev-skip-btn" id="dev-skip-next-test" title="Dev only: enter password, then jump to the next task block">
+      <span class="dev-skip-arrow" aria-hidden="true">⏭</span>
+      <span class="dev-skip-text">Next task</span>
+    </button>
+  </div>
+  <div id="app-shell">
+    <div id="lang-screen" class="lang-screen" aria-live="polite">
+      <div class="screen-card lang-card">
+        <h1 class="lang-heading">Choose language / Dil seçin</h1>
+        <p class="muted lang-sub">
+          All instructions and task texts will appear in the language you choose below.<br />
+          Aşağıdaki dil tüm yönergeler ve görev metinleri için kullanılacaktır.
+        </p>
+        <div class="lang-choice" role="group" aria-label="Language selection">
+          <button type="button" class="btn btn-primary btn-lang" id="pick-en" lang="en">
+            <span class="btn-lang-title">English</span>
+            <span class="btn-lang-hint">Continue in English</span>
+          </button>
+          <button type="button" class="btn btn-primary btn-lang" id="pick-tr" lang="tr">
+            <span class="btn-lang-title">Türkçe</span>
+            <span class="btn-lang-hint">Türkçe olarak devam et</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="jspsych-target"></div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

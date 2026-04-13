@@ -1,0 +1,14 @@
+# What to install (this is NOT pip / Python — do not use pip install -r requirements.txt)
+
+# 1) Node.js LTS (18 or newer) — includes npm
+#    Download: https://nodejs.org/
+
+# 2) Project dependencies (installs the "serve" package listed in package.json)
+#    In this folder, run:
+npm install
+
+# 3) Start the local static server
+npm start
+
+# Browser: use a desktop browser (Chrome, Edge, or Firefox) with a physical keyboard.
+# The app must be opened over http:// (not file://) because it uses ES modules.
