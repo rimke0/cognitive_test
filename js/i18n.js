@@ -17,7 +17,7 @@ const STRINGS = {
 
 Your responses are stored under an anonymous ID. Do not include your name in any text field.
 
-By continuing, you confirm that you are between 16 and 21 years old (or meet your site's inclusion criteria) and agree to participate.`,
+By continuing, you confirm that you are between 18 and 21 years old (or meet your site's inclusion criteria) and agree to participate.`,
     consentAgree: "I agree and wish to continue",
     consentDecline: "I do not agree",
     withdrawHint: "You may press Escape during tasks to withdraw (you will be asked to confirm).",
@@ -63,7 +63,7 @@ If you have questions about this research, contact your principal investigator.`
 
 Yanıtlarınız anonim bir kimlikle saklanır. Herhangi bir metin alanına adınızı yazmayın.
 
-Devam ederek, 16–21 yaş aralığında olduğunuzu (veya kurumunuzun ölçütlerini karşıladığınızı) ve katılmayı kabul ettiğinizi onaylarsınız.`,
+Devam ederek, 18–21 yaş aralığında olduğunuzu (veya kurumunuzun ölçütlerini karşıladığınızı) ve katılmayı kabul ettiğinizi onaylarsınız.`,
     consentAgree: "Okudum, kabul ediyorum ve devam etmek istiyorum",
     consentDecline: "Kabul etmiyorum",
     withdrawHint: "Görevler sırasında çekilmek için Escape tuşuna basabilirsiniz (onay istenecektir).",
